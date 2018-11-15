@@ -48,8 +48,8 @@ namespace OOPH1Eksamen
     class G
     {
         string a = "Hello!";
-        string b = a;
-        return b;
+        string getA = a;
+        return getA;
     }
 
     //OPG Tilføj en metode der kan tilføje et tal til numbers. Numbers skal
@@ -57,6 +57,7 @@ namespace OOPH1Eksamen
     class F
     {
         List<int> numbers = new List<int>();
+
     }
 
     //OPG Implementer encapsulation i denne klasse, men gør således det stadig 
@@ -110,7 +111,8 @@ namespace OOPH1Eksamen
     //OPG Herunder skal du selv implementere en class kaldet MyClass der
     //er subclass til C. Tilføj et public string felt kaldet 'myString'.
 
-    class MyClass {
+    class MyClass
+    {
         
     }
 
