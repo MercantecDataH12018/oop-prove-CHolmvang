@@ -37,7 +37,10 @@ namespace OOPH1Eksamen
     class C
     {
         public int a;
-        for (int a = 0; a< 10; a++)
+        for (int a = 0; a < 10; a++)
+        {
+        
+        }
 
     }
 
@@ -45,6 +48,8 @@ namespace OOPH1Eksamen
     class G
     {
         string a = "Hello!";
+        string b = a;
+        return b;
     }
 
     //OPG Tilføj en metode der kan tilføje et tal til numbers. Numbers skal
