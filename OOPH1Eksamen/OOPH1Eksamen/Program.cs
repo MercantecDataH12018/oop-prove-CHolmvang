@@ -24,18 +24,21 @@ namespace OOPH1Eksamen
     {
         public string name = "";
         public int legs = 2;
+        public int age = 8;
     }
 
     //OPG Tilføj en string property kaldet 'brand' til følgende class
     class E
     {
-
+        public string brand = ("");
     }
 
     //OPG Tilføj en metode der kan forstørre 'a' med 1 hver gang den kaldes
     class C
     {
         public int a;
+        for (int a = 0; a< 10; a++)
+
     }
 
     //OPG Tilføj en metode kaldet "getA" der kan returnere værdien i a
